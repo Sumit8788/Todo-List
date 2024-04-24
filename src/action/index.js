@@ -8,14 +8,9 @@ export const addTask = (data) => {
     }
 }
 
-export const deleteTask = () => {
+export const deleteTask = (id) => {
     return {
-        type: "Delete_Task"
-    }
-}
-
-export const completedTask = () => {
-    return {
-        type: "Completed_Task"
+        type: "Delete_Task",
+        id
     }
 }

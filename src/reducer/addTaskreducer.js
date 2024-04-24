@@ -19,6 +19,13 @@ const addTaskReducer = (state = initialState, action) => {
             }
             break;
 
+        case "Delete_Task":
+            const newList = state.list.filter((element) => element.id != action.id)
+            return {
+                ...state,
+                list: newList
+            }
+            break;
         default:
             return state;
             break;
