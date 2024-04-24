@@ -1,0 +1,22 @@
+.task-container{
+    border: 2px solid black;
+    height: 20%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.task-input{
+    width: 80%;
+    margin: auto;
+}
+.task-btn{
+    border-radius: 10px;
+    background-color: aqua;
+    color: white;
+}
+.task-btn:hover{
+    border: 1px solid lightgrey;
+    color: aqua;
+    background-color: white;
+}
